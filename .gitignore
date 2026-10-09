@@ -1,0 +1,13 @@
+# Arquivos de sistema do Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Pastas de editores
+.vscode/
+.idea/
+
+# Temporários
+*.tmp
+*.log
