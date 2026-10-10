@@ -17,7 +17,7 @@
 ## 🔗 Link do Gemini Notebook
 
 * 📂 **Caderno Interativo:** [Acesse o Gemini Notebook deste projeto aqui](https://notebook.google.com/notebook/e639cbb5-1891-453a-85d9-fe79678df6f8?authuser=1)
-*(Configurado como visualização pública com todas as 6 fontes indexadas e chat disponível).*
+*(Configurado como visualização pública com todas as 5 fontes indexadas e chat disponível).*
 
 ---
 
@@ -32,7 +32,6 @@ Para assegurar respostas matematicamente precisas e fundamentadas no estado da a
 | **3** | *Visualizing Attention and Transformers* | Vídeo (YouTube) | Canal *3Blue1Brown* | Maior autoridade global em visualização matemática didática; ilustra o cálculo de vetores, matrizes de atenção e a conversão de logits em probabilidades. |
 | **4** | *Treinamento de LLMs e Aprendizado por Reforço \| SFT + RLHF \| PPO vs GRPO* | Vídeo (YouTube) | Canal *Martin is a dad* (com Eng. do Google) | Visão direta da indústria em Big Tech, detalhando clusters de GPUs, limitações do PPO e a evolução para algoritmos modernos de RL como GRPO. |
 | **5** | *Os Tipos de Fine-Tuning de LLMs: SFT, RLHF, DPO e LoRA Explicados* | Vídeo (YouTube) | Canal *SH AI Academy* | Síntese técnica recente e de alto nível sobre as alternativas eficientes de ajuste fino (DPO e adaptação por matrizes de baixo rank com LoRA). |
-| **6** | *Attention Is All You Need* | Artigo Científico (PDF) | Vaswani et al. (Google Brain / Research, 2017) | Artigo fundador da arquitetura Transformer, que introduziu a equação original de *Scaled Dot-Product Attention* e o uso da função Softmax. |
 
 ### Critérios de Curadoria:
 1. **Autoridade:** Apenas pesquisadores que publicaram os modelos seminais ou engenheiros que treinam modelos em ambiente de produção.
@@ -47,6 +46,7 @@ A seguinte diretriz foi atribuída ao notebook para calibrar o tom das respostas
 
 ```text
 Você é um especialista em matemática estatística,engenharia de aprendizado de máquina e meu mentor técnico. Me fale sobre como os modelos de linguagem realmente funcionam. Responda às minhas perguntas com clareza conceitual,o passo a passo da matemática de probabilidade (logits, softmax, amostragem) e o pipeline real de treinamento (pré-treino, SFT, RLHF, DPO, GRPO), citando as fontes fornecidas como referência"
+````
 
 ## 💬 Conversas com as Fontes e Evidências de Citação (*Grounding*)
 Abaixo estão as consultas realizadas ao notebook demonstrando a fidelidade estrita às fontes:
@@ -75,11 +75,12 @@ Abaixo estão as consultas realizadas ao notebook demonstrando a fidelidade estr
 📦 Materiais Gerados no Estúdio (Studio)
 
 Os seguintes artefatos foram gerados pelo Gemini Notebook a partir da síntese das fontes e estão versionados neste repositório:
-
+```text
 🧠 Mapa Mental da Arquitetura e Treinamento de LLMs: Visualização estruturada da esteira de dados, desde a entrada de tokens até o pós-treino com alinhamento.
 📊 Slide "Arquitetura e Treinamento de LLMs" (.pdf): Apresentação didática gerada para estudo, revisão e compartilhamento.
 🎙️ Podcast Completo: Imersão Técnica em Probabilidade e Treinamento de LLMs (.m4a): Debate aprofundado de 25 minutos entre dois apresentadores de IA discutindo os contrastes entre a modelagem probabilística e a aplicação de RL moderno. (Também disponível para reprodução interativa via link público do caderno).
-
+```
+```text
 📂 Estrutura do Repositório
 segundo-cerebro-matematica-dos-llms/
 │
@@ -96,7 +97,7 @@ segundo-cerebro-matematica-dos-llms/
     ├── NotebookLM Mind Map.png            # Mapa mental visual
     ├── Arquitetura_e_Treinamento_de_LLMs.pdf  # Slides em PDF
     └── resumo-podcast.m4a                 # Episódio de podcast (25 min)
-
+```
 💡 Aprendizados e Conclusões
 
 A construção deste segundo cérebro permitiu consolidar que a "inteligência" de um modelo de linguagem não decorre de raciocínio consciente, mas de uma orquestração matemática rigorosa:
